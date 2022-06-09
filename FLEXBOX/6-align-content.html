@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos -  align content</title>
+    <style>
+
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .stretch{
+            align-content: stretch;
+            }
+            
+        .center{
+            align-content: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">beatae sit? Explicabo vel earum velit!</div>
+        <div class="item">Lorem ipconsectetur adipisicing elit.</div>
+        <div class="item">Libero quae vique aperiam repellat ab, </div>
+        <div class="item">facilis fillum s</div>
+        <div class="item">ptatibus eos quo corp</div>
+        <div class="item">oris imi</div>
+    </div>
+    
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">beatae sit? Explicabo vel earum velit!</div>
+        <div class="item">Lort consectetur adipisicing elit.</div>
+        <div class="item">Libero quae voluoris m repellat ab, </div>
+        <div class="item">facilis fugiat a nisi distinctio illum s</div>
+        <div class="item">ptatibus eos quo corp</div>
+        <div class="item">oris imi</div>
+    </div>
+</body>
+</html>
