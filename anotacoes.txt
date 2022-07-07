@@ -16,3 +16,16 @@ function returnEvenValues(array) {
   
   returnEvenValues(array);
   
+
+
+
+VAR - Scope Global (Var tem hoisting, pode redeclarar e retribuir) - perigoso usar variaveis globais- melhor usar Let.
+Let - escopo local - nao pode redeclarar, pode retribuir.
+Const - Declarada em SNAKE_UPPER_CASE - escopo de bloco - nao faz hoisitng - nao pode redeclarar nem retribuido.
+
+Tipagem dinâmica
+
+Tpos primitivos nao tem métodos dentro deles: letra minúscula -]
+Composite / Non-Primitive - objetos e arrays
+
+Índice comeca do zero - tamanho começa do um
